@@ -9,3 +9,5 @@ if __name__ == "__main__":
     print(get_files_info.get_files_info("calculator", "/bin"))
     print("Result for '../' directory:")
     print(get_files_info.get_files_info("calculator", "../"))
+
+    
