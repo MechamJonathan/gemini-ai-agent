@@ -22,7 +22,6 @@ def get_files_info(working_directory, directory="."):
             result.append(f"- {item}: file_size={file_size} bytes, is_dir={is_dir}")
         except OSError as e:
             result.append(f"- {item}: error reading file info ({e})")
-    
     return "\n".join(result)
 
 schema_get_files_info = types.FunctionDeclaration(
