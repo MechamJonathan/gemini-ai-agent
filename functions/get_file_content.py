@@ -24,7 +24,6 @@ def get_file_content(working_directory, file_path):
     except OSError as e:
         return f'Error: Cannot read "{file_path}" contents. {str(e)}'
 
-
 schema_get_file_content = types.FunctionDeclaration(
     name="get_file_content",
     description="Read up to the first 10,000 characters of a file, constrained so the target file must reside within `working_directory`.",
