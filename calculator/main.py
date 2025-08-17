@@ -1,9 +1,6 @@
-# main.py
-
 import sys
 from pkg.calculator import Calculator
 from pkg.render import render
-
 
 def main():
     calculator = Calculator()
@@ -20,7 +17,6 @@ def main():
         print(to_print)
     except Exception as e:
         print(f"Error: {e}")
-
 
 if __name__ == "__main__":
     main()

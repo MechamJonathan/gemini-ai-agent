@@ -16,7 +16,6 @@ available_functions = types.Tool(
     ]
 )
 
-
 def call_function(function_call_part, verbose=False):
 
     if verbose == True:
