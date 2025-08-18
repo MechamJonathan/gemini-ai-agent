@@ -1,6 +1,6 @@
 # AI Agent (Toy Claude Code)
 
-A simple AI-powered coding agent built with Python and Google’s free Gemini API. Inspired by tools like Cursor and Claude Code, this project demonstrates how a custom AI agent can automate coding tasks by reading, editing, and running code
+A simple AI-powered coding agent built with Python and Google’s free Gemini API. Inspired by tools like Cursor and Claude Code. 
 
 ## What does the Agent Do?
 This program is a CLI tool that accepts a coding task and works toward completing it by calling a set of predefined functions.
@@ -53,3 +53,4 @@ uv run main.py "fix my calculator app"
 - This is a toy agent, so expect it to fail sometimes.
 - Requires a Gemini API key (free tier works).
 - The agent only supports Python projects for execution.
+
